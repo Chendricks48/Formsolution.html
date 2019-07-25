@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form Solution</title>
+</head>
+<body>
+	<h1>Register</h1>
+<form>
+	<label for="First Name">First Name: </label>
+	<input id="First Name" type="text" placeholder="John" required>
+
+	<label for="Last Name">Last Name: </label>
+	<input id="Last Name" type="text" placeholder="Smith" required>
+
+<div>
+	<label for="Male">Male</label>
+<input id="Male" name="gender" type="radio" value="Male" required>
+<label for="Female">Female</label>
+<input id="Female" name="gender" type="radio" value="Female" required>
+<label for="Other">Other</label>
+<input id="Other" name="gender" type="radio" value="Other" required>
+</div>
+
+<div>
+	<label>
+		Email:
+		<input name="Email" type="email" placeholder="your email" required>
+	</label>
+	<label>
+		Password:
+		<input name="Password" type="password" placeholder="password" required>
+	</label>
+
+</div>
+
+<label>
+	Birthday:
+<select name="Month" required>
+	<option>Month</option>
+	<option>Febuary</option>
+	<option>March</option>
+	<option>April</option>
+</select>
+
+<select name="Day" required>
+	<option>Day</option>
+	<option>2</option>
+	<option>3</option>
+	<option>4</option>
+</select>
+
+<select name="Year" required>
+	<option>Year</option>
+	<option>2018</option>
+	<option>2017</option>
+	<option>2016</option>
+</select>
+</label> 
+
+<div>
+	<label>
+		I agree to these terms and conditions
+		<input type="checkbox" required>
+	</label>
+	
+
+
+</div>
+
+<div>
+
+<input type="Submit">
+</form>
+</body>
+</html>
